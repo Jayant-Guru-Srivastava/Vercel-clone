@@ -14,7 +14,7 @@ export async function uploadFile(fileName: string, localFilePath: string){
     const fileContent = fs.readFileSync(localFilePath);
     const response = await s3.upload({
         Body: fileContent,
-        Bucket: "vercel-jayantgurushrivastava",
+        Bucket: "",
         Key: fileName
     }).promise();
     console.log(response);

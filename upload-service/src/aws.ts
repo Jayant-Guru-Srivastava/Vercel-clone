@@ -2,9 +2,9 @@ import { S3 } from "aws-sdk";
 import fs from "fs";
 
 const s3 = new S3({
-    accessKeyId: "AKIA4MTWIHO73CCQCLXP",
-    secretAccessKey: "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",
-    endpoint: "https://s3.ap-south-1.amazonaws.com"
+    accessKeyId: "",
+    secretAccessKey: "",
+    endpoint: ""
 })
 
 // fileName => output/12312/src/App.tsx
